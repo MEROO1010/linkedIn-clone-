@@ -17,8 +17,8 @@ function Sidebar() {
             alt=""
             />
             <Avatar className='sidebar__avatar' />
-            <h2> Arwa Alsaggaf</h2>
-            <h4>arwa468saggaf@gmail.com</h4>
+            <h2> Emily Grayburn</h2>
+            <h4>emily.grayburn@gmail.com</h4>
         </div>
 
      <div className='sidebar__stats'>
@@ -34,12 +34,10 @@ function Sidebar() {
      <div className='sidebar__bottom'>
         <p>Recent</p>
         {recentItem('reactjs')}
-        {recentItem('flutter')}
         {recentItem('programming')}
         {recentItem('softwareengineering')}
         {recentItem('design')}
         {recentItem('developer')}
-        {recentItem('UI/UX')}
      </div>
     </div>
   );

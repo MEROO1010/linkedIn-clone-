@@ -13,12 +13,12 @@ function Sidebar() {
   return (
     <div className='sidebar'>
         <div className='sidebar__top'>
-            <img src='https://images.unsplash.com/photo-1614850523296-d8c1af93d400?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' 
+            <img src='https://burnham310.com/wp-content/uploads/2020/09/UIUC-Student-Union-1.jpg' 
             alt=""
             />
             <Avatar className='sidebar__avatar' />
-            <h2> Arwa Alsaggaf</h2>
-            <h4>arwa468saggaf@gmail.com</h4>
+            <h2> Emily Grayburn</h2>
+            <h4>emily.grayburn@gmail.com</h4>
         </div>
 
      <div className='sidebar__stats'>
@@ -34,12 +34,10 @@ function Sidebar() {
      <div className='sidebar__bottom'>
         <p>Recent</p>
         {recentItem('reactjs')}
-        {recentItem('flutter')}
         {recentItem('programming')}
         {recentItem('softwareengineering')}
         {recentItem('design')}
         {recentItem('developer')}
-        {recentItem('UI/UX')}
      </div>
     </div>
   );

@@ -34,12 +34,10 @@ function Sidebar() {
      <div className='sidebar__bottom'>
         <p>Recent</p>
         {recentItem('reactjs')}
-        {recentItem('flutter')}
         {recentItem('programming')}
         {recentItem('softwareengineering')}
         {recentItem('design')}
         {recentItem('developer')}
-        {recentItem('UI/UX')}
      </div>
     </div>
   );

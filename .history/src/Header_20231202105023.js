@@ -13,7 +13,7 @@ function Header() {
     <div className='header'>
  <div className="header__left">
             <img 
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png"
+              src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
               alt=""
             />
 
@@ -29,7 +29,7 @@ function Header() {
               <HeaderOption Icon={BusinessCenterIcon} title='Jobs'/>
               <HeaderOption Icon={ChatIcon} title='Messaging'/>
               <HeaderOption Icon={NotificationsIcon} title='Notifications'/>
-              <HeaderOption avatar="https://w7.pngwing.com/pngs/980/886/png-transparent-male-portrait-avatar-computer-icons-icon-design-avatar-flat-face-icon-people-head-cartoon-thumbnail.png" title = "me"/>
+              <HeaderOption avatar="https://activevalor.com/wp-content/uploads/brizy/8540/assets/images/d03-Img-Girl-Blonde.jpg" title = "me"/>
         </div>
     </div>
   )
