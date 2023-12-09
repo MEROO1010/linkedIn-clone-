@@ -8,7 +8,7 @@ import SubscriptionsIcon from '@material-ui/icons/Subscriptions';
 import EventNoteIcon from '@material-ui/icons/EventNote';
 import CalendarViewDayIcon from '@material-ui/icons/CalendarViewDay';
 import Post from './Post';
-import {db} from './firebase';
+import db from './firebase';
 import firebase from './firebase';
 import { selectUser } from './features/userSlice';
 
