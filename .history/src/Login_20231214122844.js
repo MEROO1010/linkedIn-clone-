@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./Login.css";
-import { login } from "./features/userSlice";
+import { login } from "../../features/userSlice";
 import { useDispatch } from "react-redux";
-import { auth } from "./firebase";
+import { auth } from "../../firebase";
 
 export default function Login() {
   const [email, setEmail] = useState("");
@@ -105,10 +105,10 @@ export default function Login() {
         </span>
       </p>
       <h4>
-        © 2023 LinkedIn Clone by{" "}
-        <a href="https://www.linkedin.com/in/marwah-alsaggaf-ba44011b2/">
+        © 2021 LinkedIn Clone by{" "}
+        <a href="https://www.linkedin.com/in/gianmarco-ebeling-856020135/">
           {" "}
-          Marwah Alsaggaf
+          Gianmarco Ebeling
         </a>{" "}
       </h4>
     </div>

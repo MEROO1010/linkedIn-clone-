@@ -8,11 +8,10 @@
 }
 
 .inputOption:hover{
-  background-color: white;
-  border-radius: 10px;
+    background-color: whitesmoke;
+    border-radius: 10px;
 }
 
 .inputOption > h4 {
-  margin-left: 5px;
-  
+    margin-left: 5px;
 }

@@ -108,7 +108,7 @@ export default function Login() {
         © 2023 LinkedIn Clone by{" "}
         <a href="https://www.linkedin.com/in/marwah-alsaggaf-ba44011b2/">
           {" "}
-          Marwah Alsaggaf
+          Gianmarco Ebeling
         </a>{" "}
       </h4>
     </div>

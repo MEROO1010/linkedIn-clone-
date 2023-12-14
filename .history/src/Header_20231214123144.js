@@ -24,7 +24,7 @@ function Header() {
         <div className="header">
             <div className="header__left">
                 <img
-                    src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+                    src="https://www.flaticon.com/svg/static/icons/svg/174/174857.svg"
                     alt="linkedin logo"
                 />
 

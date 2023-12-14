@@ -8,9 +8,9 @@ import SubscriptionsIcon from '@material-ui/icons/Subscriptions';
 import EventNoteIcon from '@material-ui/icons/EventNote';
 import CalendarViewDayIcon from '@material-ui/icons/CalendarViewDay';
 import { useSelector } from 'react-redux';
-import { selectUser } from './features/userSlice';
+import { selectUser } from '../../features/userSlice';
 import { db } from './firebase';
-import firebase from './firebase';
+import firebase from "./firebase";
 import FlipMove from "react-flip-move";
 
 
